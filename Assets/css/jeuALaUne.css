@@ -12,8 +12,17 @@ nav{
 .navLogo{
     width: 50%;
 }
-.navLogoSub{
+.navLogoImg{
     width: 100px;
+}
+.navLogoSub{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navLogoSub a{
+    text-decoration: none;
+    color: #ffffff;
 }
 .navLinks{
     width: 50%;
@@ -24,11 +33,11 @@ nav{
 }
 .navLinks a{
     text-decoration: none;
-    color: #4B94F2;
+    color: #ffffff;
 }
 footer{
     background-color: #050326;
-    color: #4B94F2;
+    color: #ffffff;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -41,5 +50,5 @@ footer div img{
 }
 footer div a{
     text-decoration: none;
-    color: #4B94F2;
+    color: #ffffff;
 }
