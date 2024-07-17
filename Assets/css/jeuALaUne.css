@@ -35,6 +35,109 @@ nav{
     text-decoration: none;
     color: #ffffff;
 }
+.fa-solid{
+    color: white;
+    display: none;
+}
+.containerGT{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: 600px;
+}
+.imageGT{
+    width: 80%;
+    height:100%;
+    margin-left: 10%;
+}
+.containertexte{
+    display: flex;
+    width: 100%;
+}
+.containertexte p{
+    width: 100%;
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 20px;
+}
+.sectionprésentation{
+    width: 100%;
+}
+.containerPrésentation{
+    width: 100%;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-bottom: 40px;
+}
+.containerPrésentation h2{
+    width: 100%;
+    padding-bottom: 15px;
+}
+.containerGraphisme{
+    width: 100%;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-bottom: 40px;
+}
+.containerPrésentation h2{
+    width: 100%;
+    padding-bottom: 15px;
+}
+.containerJeu{
+    width: 100%;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-bottom: 40px;
+}
+.containerJeu h2{
+    width: 100%;
+    padding-bottom: 15px;
+}
+.containerCaractéristiques{
+    width: 100%;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-bottom: 40px;
+}
+.containerJeu{
+    width: 100%;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-bottom: 40px;
+}
+.containerJeu h2{
+    width: 100%;
+    padding-bottom: 15px;
+}
+.containerCaractéristiques{
+    width: 100%;
+    font-size: 20px;
+    padding-left: 150px;
+    padding-bottom: 40px;
+}
+.containerCaractéristiques h2{
+    width: 100%;
+    padding-bottom: 15px;
+}
+.Sectionimg{
+    width: 100%;
+    padding-top: 50px;
+    display: flex;
+}
+.containerimg{
+    width: 33%;
+}
+.img{
+    width: 100%;
+    padding-left: 20px;
+}
+.containervidéo{
+    background-color: white;
+}
+.video{
+    width: 100%;
+    height: 400px;
+}
 footer{
     background-color: #050326;
     color: #ffffff;
@@ -51,4 +154,49 @@ footer div img{
 footer div a{
     text-decoration: none;
     color: #ffffff;
+}@media (max-width: 550px){
+    nav{
+        flex-direction: row;
+        align-items:center;
+    }
+    .navLogoSub{
+        justify-content: space-between;
+        width: 100%;
+    }
+    .navLinks{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 100%;
+        display: none;
+    }
+    .fa-solid{
+        display: block;
+        margin-right: 20px;
+        font-size: 40px;
+
+    }
+    .containerPrésentation{
+        padding-left: 30px;
+    }
+    .containerGraphisme{
+        padding-left: 30px;
+    }
+    .containerJeu{
+        padding-left: 30px;
+    }
+    .containerCaractéristiques{
+        padding-left: 30px;
+    }
+    .video{
+        width: 100%;
+        height: 300px;
+    }
+    .Sectionimg{
+        flex-direction: column;
+
+    }
+    .containerimg{
+        width: 95%;
+    }
 }
