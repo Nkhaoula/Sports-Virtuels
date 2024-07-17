@@ -35,6 +35,46 @@ nav{
     text-decoration: none;
     color: #ffffff;
 }
+.imageA{
+    width: 100%;
+    
+}
+.imageAcceuil{
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+}
+.Bienvenue{
+    text-align: center;
+    background-color: rgba(217, 217, 217, 0.5);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    margin: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    
+}
+.texte{
+    max-width: 600px;
+    padding: 20px;
+}
+button{
+    margin: 30px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color:rgba(5, 3, 38, 1);
+    border-radius: 10px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.mainA{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 footer{
     background-color: #050326;
     color: #ffffff;
@@ -51,4 +91,26 @@ footer div img{
 footer div a{
     text-decoration: none;
     color: #ffffff;
+}
+@media (max-width: 550px) {
+    .mainA{
+    width: 100%;
+    margin: auto;
+    }
+    .imageAcceuil{
+        width: 80%;
+        margin-left: 10%;
+        height: 60%;
+        margin-bottom: 20%;
+    }
+    .Bienvenue{       
+        margin: 5%;
+        }
+    .texte{
+            max-width: 600px;
+            padding: 20px;
+        }
+    button{
+        padding: 10px 20px;
+    }
 }
